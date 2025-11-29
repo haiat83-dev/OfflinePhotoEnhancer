@@ -55,7 +55,7 @@ jobs:
         powershell -ExecutionPolicy Bypass -File scripts/package.ps1
     
     - name: Upload Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: OfflinePhotoEnhancer-Windows-x64
         path: dist/OfflinePhotoEnhancer.zip
